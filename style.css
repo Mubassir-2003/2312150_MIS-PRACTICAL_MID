@@ -52,3 +52,28 @@ img { max-width: 100%; }
   padding: 20px;
   text-align: center;
 }
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 25px 0;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e6dcc6;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+.card:hover { box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); }
+.card img { width: 150px; }
+.card h3 { margin-top: 8px; }
+.card h4 { color: #8a6d2f; margin: 6px 0 10px; }
