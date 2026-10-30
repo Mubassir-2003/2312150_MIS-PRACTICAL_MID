@@ -86,3 +86,25 @@ footer {
 }
 .cart-box button { margin: 8px 4px 0; }
 #cart-list { list-style: none; margin-top: 12px; }
+
+.contact-form { max-width: 450px; margin: 20px auto; }
+.contact-form label { display: block; margin-top: 12px; }
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+.contact-form button { margin-top: 16px; }
+#form-msg { margin-top: 12px; font-weight: bold; }
+
+button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover { background: #c9a45c; color: #111; }
