@@ -77,3 +77,12 @@ footer {
 .card img { width: 150px; }
 .card h3 { margin-top: 8px; }
 .card h4 { color: #8a6d2f; margin: 6px 0 10px; }
+
+.cart-box {
+  background: #fff;
+  border: 1px solid #e6dcc6;
+  padding: 20px;
+  text-align: center;
+}
+.cart-box button { margin: 8px 4px 0; }
+#cart-list { list-style: none; margin-top: 12px; }
