@@ -27,3 +27,18 @@ function clearCart() {
   document.getElementById("cart-total").textContent = "Total: 0 TK";
   document.getElementById("added-msg").textContent = "";
 }
+
+function sendMessage() {
+  var name = document.getElementById("name").value.trim();
+  var email = document.getElementById("email").value.trim();
+  var text = document.getElementById("message").value.trim();
+  var out = document.getElementById("form-msg");
+
+  if (name === "" || email === "" || text === "") {
+    out.style.color = "#b00020";
+    out.textContent = "Please fill in all fields.";
+  } else {
+    out.style.color = "#2e7d32";
+    out.textContent = "Thank you, " + name + "! Your message has been sent.";
+  }
+}
