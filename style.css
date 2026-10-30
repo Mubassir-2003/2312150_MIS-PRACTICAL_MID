@@ -1,0 +1,28 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: #faf7f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+header h1 { color: #c9a45c; font-size: 2rem; letter-spacing: 3px; }
+header p { font-size: 0.9rem; color: #ccc; margin-bottom: 10px; }
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
+}
+nav a:hover, nav a.active { background: #c9a45c; color: #111; }
